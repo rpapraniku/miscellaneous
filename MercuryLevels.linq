@@ -41,7 +41,7 @@ public static class Util
 
 public string[] ReadFile()
 {
-	System.IO.StreamReader reader = new StreamReader("C:\\Users\\rpapraniku\\OneDrive - ENDAVA\\Desktop\\input000_1.txt");
+	System.IO.StreamReader reader = new StreamReader("");
 	var stringData = reader.ReadToEnd();
 	var data = stringData.Split(new string[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
 	return data;
